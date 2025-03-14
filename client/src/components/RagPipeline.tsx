@@ -108,28 +108,7 @@ const RagPipeline: FC = () => {
             ))}
           </div>
           
-          {/* Animated Flow Indicators */}
-          <div className="hidden md:block absolute top-1/2 left-0 w-full h-6 -mt-3 z-0">
-            <motion.div 
-              className="w-full h-0.5 bg-primary absolute top-1/2"
-              initial={{ scaleX: 0, opacity: 0 }}
-              animate={{ scaleX: 1, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
-            />
-            <motion.div
-              className="w-3 h-3 rounded-full bg-primary absolute"
-              initial={{ left: "0%", opacity: 0 }}
-              animate={{ 
-                left: ["0%", "100%"],
-                opacity: [0, 1, 0]
-              }}
-              transition={{ 
-                duration: 3,
-                repeat: Infinity,
-                ease: "linear"
-              }}
-            />
-          </div>
+
         </div>
       </CardContent>
     </Card>
