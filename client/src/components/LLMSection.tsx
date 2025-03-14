@@ -4,7 +4,7 @@ import { Cpu } from "lucide-react";
 import { motion } from "framer-motion";
 
 const LLMSection: FC = () => {
-  const models = ["Llama 3", "Mistral", "MPT / Falcon / Others"];
+  const models = ["Llama 3", "Gemma", "Qwen"];
 
   return (
     <Card className="bg-red-50 border-red-200 transition-all duration-300 hover:shadow-md">

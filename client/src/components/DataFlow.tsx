@@ -102,27 +102,7 @@ const DataFlow: FC = () => {
                     animate={{ pathLength: 1 }}
                     transition={{ duration: 2, delay: index * 0.1 }}
                   />
-                  <motion.circle
-                    r="4"
-                    fill="#EA4335"
-                    initial={{ opacity: 0 }}
-                    animate={{
-                      opacity: [0, 1, 0],
-                    }}
-                    transition={{
-                      duration: 3,
-                      repeat: Infinity,
-                      repeatDelay: 0.5,
-                      delay: index * 0.2
-                    }}
-                  >
-                    <animateMotion
-                      path={pathData}
-                      dur="3s"
-                      repeatCount="indefinite"
-                      rotate="auto"
-                    />
-                  </motion.circle>
+
                 </g>
               );
             })}

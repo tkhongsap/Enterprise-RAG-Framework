@@ -35,29 +35,14 @@ const DataSources: FC = () => {
       tooltip: "SQL, NoSQL, and other structured data sources"
     },
     {
-      icon: <Users className="w-4 h-4 text-primary" />,
-      label: "CRM",
-      tooltip: "Customer data and interaction history"
-    },
-    {
       icon: <FileText className="w-4 h-4 text-primary" />,
       label: "Documents",
       tooltip: "PDFs, docx, and other document formats"
     },
     {
-      icon: <Mail className="w-4 h-4 text-primary" />,
-      label: "Email",
-      tooltip: "Internal communication and correspondence"
-    },
-    {
       icon: <Code className="w-4 h-4 text-primary" />,
       label: "APIs",
       tooltip: "Internal REST/GraphQL endpoints"
-    },
-    {
-      icon: <BookOpen className="w-4 h-4 text-primary" />,
-      label: "Knowledge Base",
-      tooltip: "Wikis, guides, and institutional knowledge"
     }
   ];
 
